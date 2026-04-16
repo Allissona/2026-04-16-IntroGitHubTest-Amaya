@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  2026-04-16-IntroGitHubTest-Amaya
 //
-//  Created by patron on 4/16/26.
+//  Created by allisson amaya on 4/16/26.
 //
 
 import SwiftUI
@@ -15,6 +15,10 @@ struct ContentView: View {
                 .scaledToFit()
                 .foregroundStyle(.tint)
             Text("Hello, world!")
+                .font(.largeTitle)
+                .foregroundStyle(.tint)
+                .fontWeight(.bold)
+                .padding()
         }
         .padding()
     }
